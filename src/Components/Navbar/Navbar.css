@@ -1,0 +1,13 @@
+.nav-section {
+    background-color: #2b1572;
+    color: white;
+}
+
+nav.navbar a {
+    font-size: 22px;
+    padding: 0 20px;
+}
+
+nav.navbar {
+    padding: 20px;
+}
