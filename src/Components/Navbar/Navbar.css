@@ -3,11 +3,15 @@
     color: white;
 }
 
+nav.navbar {
+    margin-top: 20px;
+}
 nav.navbar a {
     font-size: 22px;
     padding: 0 20px;
 }
 
 nav.navbar {
+    margin-left: -80px;
     padding: 20px;
 }

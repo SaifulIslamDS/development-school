@@ -3,3 +3,26 @@ footer#footer {
     padding: 20px 0;
     color: white;
 }
+
+.site-info {
+    text-align: left;
+}
+
+.site-logo {
+    width: 70%;
+    padding: 20px 0;
+}
+
+.footer-text {
+    font-size: 18px;
+}
+.footer-title {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 43px;
+  }
+.footer-list {
+    font-size: 18px;
+    padding-bottom: 10px;
+    cursor: pointer;
+ }
