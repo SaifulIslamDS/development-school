@@ -1,10 +1,34 @@
 .single-course {
-    height: 480px;
     margin: 10px;
-    padding: 10px;
+    padding: 20px;
+    text-align: left;    
+    box-shadow: 10px 10px 20px grey;
+    transition: background-color 1s;
 }
-
-img.course-img {
+.single-course:hover {
+    background-color: aquamarine;
+}
+.course-img {
     width: 100%;
     height: 250px;
+}
+
+.course-title {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.course-price {
+    font-weight: 700;
+    color: #2b1572;
+    font-size: 24px;
+}
+
+.course-desc {
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.course-ins span {
+    text-decoration: underline;
 }

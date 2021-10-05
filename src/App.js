@@ -10,7 +10,7 @@ import {
 
 import Navbar from "./Components/Navbar/Navbar";
 import Home from "./Components/Home/Home"
-import CoursesPage from "./Components/CoursesPage/CoursesPage"
+import CoursePage from "./Components/CoursePage/CoursePage"
 import About from "./Components/About/About"
 import Contact from "./Components/Contact/Contact"
 import Footer from "./Components/Footer/Footer"
@@ -33,7 +33,7 @@ function App() {
             <Home />
           </Route>
           <Route path="/courses">
-            <CoursesPage />
+            <CoursePage />
           </Route>
           <Route path="/about">
             <About />

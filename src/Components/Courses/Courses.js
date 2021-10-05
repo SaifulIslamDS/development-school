@@ -13,7 +13,6 @@ const Courses = () => {
     return (
         <section className="courses-section">
             <div className="container mx-auto">
-                <h2 className="text-5xl p-4">Some of award winning courses</h2>
                 <div className="grid grid-cols-3 gap-4">
                     {
                     //loop through courses with map method

@@ -7,9 +7,9 @@ const Course = (props) => {
         <div className="single-course">
             <img className="course-img" src={img} alt="" />
             <h2 className="course-title">{name}</h2>
-            <p className="course-price">$ {price}</p>
+            <p className="course-price">Price: $ {price}</p>
+            <p className="course-ins">Instructor: <span>{insructor}</span></p>
             <p className="course-desc">{description}</p>
-            <p className="course-ins">Course instructor: {insructor}</p>
         </div>
     );
 };
